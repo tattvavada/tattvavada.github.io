@@ -9,9 +9,9 @@ baseurl:             ''
 
 # About/contact
 author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
+  name:              Prabhanjan Mutalik
+  url:               
+  email:             
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
 color-scheme: brown
@@ -27,6 +27,10 @@ encoding: utf-8
 collections:
   texts:
     output: true
+
+  appendices:
+    output: true
+
 
 # Markdown specs
 markdown: kramdown
