@@ -131,6 +131,8 @@ h1 {
 
 h1.text-title {
   font-size: 1.4rem;
+   color: #ffffff;
+
 }
 
 h2 {
@@ -156,6 +158,7 @@ h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  text-align: justify;
 }
 
 /* Lists*/
@@ -272,7 +275,7 @@ tbody tr:nth-child(odd) th {
   font-weight: 300;
   color: $text-color;
   letter-spacing: .05rem;
-  font-family: $heading-font;
+  // font-family: $heading-font;
   color: #ffffff;
 
 }
@@ -558,6 +561,25 @@ a.sidebar-nav-item:focus {
 }
 
 
+/* Custom Theme */
+
+
+body {
+  background-color: #0c0c0c;
+  color: #fefefe;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ color: #fefefe;
+}
+
+.masthead {
+
+background-color: #845422;
+
+}
+
+
 /*
   Themes
 
@@ -569,13 +591,13 @@ a.sidebar-nav-item:focus {
 .theme-base-red .sidebar,
 .theme-base-red .sidebar-toggle:active,
 .theme-base-red #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #ac4142;
+  background-color: #228454;
 }
 
 .theme-base-red .container a,
 .theme-base-red .sidebar-toggle,
 .theme-base-red .related-posts li a:hover {
-  color: #ac4142;
+  color: #d9754f;
 }
 
 /* Orange*/

@@ -1,7 +1,7 @@
 ---
-layout: narrative
-title: "An Exploration of Dvaita through the life and times of Vijayīndra Tīrtha" 
-source: 
+layout: post
+title: "Outline of Indian Philosophy" 
+category: indian philosophy
 publication-date: 2019
 ---
 This is a strange article

@@ -9,7 +9,7 @@ title: "Tattvavada: A primer on Dvaita"
 
 <hr>
 
-<div class="toc">
+<!--<div class="toc">
   <h2>Articles</h2>
   <ul class="texts">
   {% for item in site.texts %}
@@ -21,5 +21,19 @@ title: "Tattvavada: A primer on Dvaita"
     </li>
   {% endfor %}
   </ul>
-</div>
+</div>-->
+
+{% assign groups = site.texts | group_by:"category" %}
+{% for group in groups %}
+    
+    <h2><b>{{group.name | upcase}}</b></h2>
+    {% for item in group.items %}
+            <li class="text-title">
+            <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+            </li>
+    {% endfor %}
+   
+
+{% endfor %}
+
 
