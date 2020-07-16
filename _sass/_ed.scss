@@ -36,7 +36,8 @@ body {
 }
 
 html {
-  font-family: $main-font;
+   font-family: $main-font;
+  // font-family: Cooper,Georgia,Cambria,Times New Roman,Times,serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -177,8 +178,8 @@ hr {
   position: relative;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #d9754f;
+  border-bottom: 1px solid #d9754f;
 }
 
 /* Search Highlihting*/
@@ -251,11 +252,11 @@ tbody tr:nth-child(odd) th {
 */
 
 .masthead {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   text-align: center;
-  padding-top: 26px;
+  padding-top: 46px;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 0px solid #d9754f;
 }
 
 .masthead-title {
@@ -565,17 +566,17 @@ a.sidebar-nav-item:focus {
 
 
 body {
-  background-color: #0c0c0c;
-  color: #fefefe;
+  background-color: #000000;
+  color: #F8F8F8;
 }
 
 h1, h2, h3, h4, h5, h6 {
- color: #fefefe;
+ color: #F8F8F8;
 }
 
 .masthead {
 
-background-color: #845422;
+background-color: #000000;
 
 }
 
