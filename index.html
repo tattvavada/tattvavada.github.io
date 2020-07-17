@@ -37,3 +37,19 @@ title: "Tattvavada"
 {% endfor %}
 
 
+<!--{% assign groups = site.texts | group_by:"category" %}
+{% for group in groups %}
+    
+    <h2><b>{{group.name | upcase}}</b></h2>
+           <div class="row">
+               {% for item in group.items %}
+             <div class="column">
+               <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+             </div>
+             {% endfor %}
+
+           </div>-->
+           
+   
+
+{% endfor %}

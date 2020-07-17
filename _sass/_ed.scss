@@ -38,8 +38,12 @@ body {
 html {
    font-family: $main-font;
   // font-family: Cooper,Georgia,Cambria,Times New Roman,Times,serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 1em; /* 16px; specify in ems to support text resizing in all browsers */
+  line-height: 1.75;
+   -webkit-font-smoothing: subpixel-antialiased;
+   font-kerning: auto;
+
+
 }
 
 @media (min-width: 38em) {
