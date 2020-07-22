@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Outline of Indian Philosophy" 
-category: introduction
-publication-date:
+category: indian philosophy
+publication-date: 2019
 ---
 This is a strange article
 
