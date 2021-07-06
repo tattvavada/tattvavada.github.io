@@ -1,9 +1,9 @@
 ---
 layout: narrative
-title: "Anthropology of Religion" 
-source: 
+title: "Comparative Method of Religion" 
+source:
 publication-date:
 ---
 ## Contents
-* ToC 
+* ToC
 {:toc}
