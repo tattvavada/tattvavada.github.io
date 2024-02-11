@@ -57,8 +57,8 @@ html {
 body {
   color: $text-color;
   // background-color: #fff;
-  background-color: #000000; 
-  color: #ffffff;
+  background-color: #f8f8f8; 
+  color: #000000;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
   font-size: 18px;
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
-  color: #ffffff;
+  color: #d9754f;
 
 }
 
@@ -139,18 +139,18 @@ h1 {
 
 h1.text-title {
   font-size: 1.4rem;
-   color: #ffffff;
+   color: #d9754f;
 
 }
 
 h2 {
-  color: #ffffff;
+  color: #d9754f;
   margin-top: 1rem;
   font-size: 1.2rem;
 }
 
 h3, h4, h5 {
-  color: #ffffff;
+  color: #d9754f;
   font-size: 1rem;
 }
 
@@ -236,19 +236,19 @@ img {
 table {
   margin-bottom: 1rem;
   width: 100%;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #000000;
   border-collapse: collapse;
 }
 
 td,
 th {
   padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #000000;
 }
 
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+  background-color: #f8f8f8;
 }
 
 
@@ -284,7 +284,7 @@ tbody tr:nth-child(odd) th {
   color: $text-color;
   letter-spacing: .05rem;
   // font-family: $heading-font;
-  color: #ffffff;
+  color: #d9754f;
 
 }
 
@@ -571,10 +571,10 @@ a.sidebar-nav-item:focus {
 
 /* Custom Theme */
 
-
+/*
 body {
-  background-color: #000000;
-  color: #F8F8F8;
+  background-color: #f9f9f9;
+  color: #000000;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -586,7 +586,7 @@ h1, h2, h3, h4, h5, h6 {
 background-color: #000000;
 
 }
-
+*/
 
 /*
   Themes
